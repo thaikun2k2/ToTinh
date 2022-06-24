@@ -45,9 +45,13 @@
     <script src="./config.js"></script>
     <script src="./js/main.js"></script>
 
+ 
+    <audio src="${ song.url }" id="audio"></audio>
+    <i class="glyphicon glyphicon-play-circle b-play" id="play" onclick="play()"></i>
+     
     <script>
         function loadSound() {
-            var audio = new Audio('sound/sound.mp3');
+            var audio = new Audio('sound/Lac-Vao-Trong-Mo-Remix.mp3');
             audio.play();
         }
     </script>
